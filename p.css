@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+nav{
+    background-color: transparent;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    color: brown;
+    font-weight: bolder;
+    margin: 20px;
+    text-decoration: none;
+}
+video{
+    width: 100%;
+    height: 500px;
+    /* the video to fit in the page */
+    object-fit: cover; 
+}
+.overlay{
+    position: absolute;
+    /* defines the position and allows objects to be placed one on top of another */
+    top:50%;
+    color: #fefefe;
+    left: 70%;
+}
+h1:hover{
+    text-shadow: 2px 4px 5px grey;
+    text-decoration: underline;
+}
+span{
+    color: brown;
+    font-size: 30px;
+}
+ #home{
+    display: flex;
+    flex-direction: column;
+    height: 800px; 
+}
+#home::before{
+    content: "";
+    background-image: url(https://c0.wallpaperflare.com/preview/868/961/313/school-startup-coding-software-development.jpg);
+    background-size: cover;
+    height: 800px;
+}
+ .main{
+    display: flex;
+    position: absolute;
+    border: 3px inset black;
+    padding: 20px;
+    height: 100px;
+    margin-top: 4%;
+    /* top: 110%; */
+    left: 40%;
+    box-shadow: 2px 4px 8px white;
+}
+.main:hover{
+    scale: 1.05;
+    background-color: rgb(207, 195, 177);
+}
+.pic{
+    display: flex;
+}
+.pic img{
+    width: 300px;
+    padding-top: 10px;
+}
+.pic h4{
+    text-align: center;
+    color: crimson;
+    font-size: 30px;
+    font-style: italic;
+}
+.pic p{
+    text-align: justify;
+    /* background-color: rgb(250, 246, 240); */
+    font-style: italic;
+    padding: 10px;
+}
+h3{
+    text-align: center;
+    background-color: beige;
+    color: darkblue;
+    margin-top: 5px;
+
+}
+.gallery{
+    border: 3px inset honeydew;
+}
+.gallery img{
+    width: 350px;
+    margin-left: 20px;
+    padding: 20px;
+    
+}
+.gallery img:hover{
+    box-shadow: 2px 4px 6px rgb(74, 111, 92);
+    scale: 1.06;
+}
+.row{
+    background-color: mintcream;
+    display: flex;
+}
+.box{
+    border: 2px inset rgb(193, 214, 162);
+    height: 600px;
+    margin: 10px;
+    padding:10px ;
+    background-color: bisque;
+    width: 450px;
+
+}
+.box img{
+    width: 100%;
+}
+.box img:hover{
+    scale:1.06;
+}
+.box h5{
+    margin-top: 10px;
+    color: rgb(139, 115, 79);
+    font-size: 30px;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+.box h5:hover{
+    text-decoration: underline;
+}
+.box p{
+    text-align: justify;
+    font-style: inherit;
+}
